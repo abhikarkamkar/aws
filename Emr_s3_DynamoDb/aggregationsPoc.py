@@ -89,7 +89,7 @@ def DeleteS3Files(s3Client, Bucket, agg_dict):
 def main():
 
     cluster_id = 'j-3I1CCFAF0FGXS'
-    Bucket = 'test-edr-agni-1'
+    Bucket = 'test-s3-bucket-1'
     Key = 'test/hive'
     Table = 'aggregations'
 
